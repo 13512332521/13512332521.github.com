@@ -1,4 +1,3 @@
-@import 'http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -51,6 +50,10 @@ body {
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
  * MIT License
  */
+ @font-face {
+    font-family: 'Quantico';
+    src: url('../fonts/Quantico.woff');
+}
 @font-face {
   font-family: "foundation-icons";
   src: url("../fonts/foundation-icons/foundation-icons.eot");
@@ -926,7 +929,7 @@ html {
 
 body {
   /*font-family: "Raleway", sans-serif;*/
-  font-family:  微软雅黑,"Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
+  font-family:  "Quantico",微软雅黑,"Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
   font-size: 1em;
   color: #666666; }
 
@@ -955,7 +958,7 @@ h5 {
   margin-top: .8em;
   margin-bottom: .4em;
   /*font-family: "Roboto Slab", serif;*/
-  font-family: 微软雅黑,"Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
+  font-family: "Quantico",微软雅黑,"Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
   font-weight: lighter;
   color: #333333;
   -webkit-font-smoothing: antialiased; }
@@ -998,7 +1001,7 @@ blockquote {
   border: 1px solid #eeeeee;
   border-radius: 3px;
   /*font-family: "Roboto Slab", serif;*/
-  font-family:  微软雅黑,"Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
+  font-family:  "Quantico",微软雅黑,"Raleway",Verdana,sans-serif,宋体, serif, "Droid Serif", Helvetica Neue, Helvetica, Arial;
   font-weight: lighter;
   font-style: italic;
   font-size: 1.0em;
@@ -1022,25 +1025,23 @@ ul {
 
 code {
   padding: 2px 4px;
-  background: #e8f2fb;
-  border: 1px solid #c9e1f6;
+  background: #f9f2f4;
+  color: #c7254e;
   border-radius: 3px;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: "Quantico",Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .85em; }
 
 pre {
   margin-bottom: 1.3em;
-  padding: 1em 2.5%;
-  background: #e8f2fb;
-  border: 1px solid #c9e1f6;
   overflow: auto;
-  border-radius: 3px;
+  border-radius: .3em;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: .9em;
   font-weight: normal;
   line-height: 1.3em; }
   pre code {
     padding: 0 0;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     background: none;
     border: none; }
 
@@ -1067,7 +1068,7 @@ pre {
   color: #999999; }
 
 .intro {
-  font-family: "Roboto Slab", serif;
+  font-family: "Quantico","Roboto Slab", serif;
   font-size: 1.2em;
   font-weight: lighter;
   color: #999999; }
@@ -1197,7 +1198,7 @@ hr {
   color: #FFF; }
 
 .panel-subtitle {
-  font-family: "Roboto Slab", serif;
+  font-family: "Quantico","Roboto Slab", serif;
   font-size: 1.2em;
   font-weight: lighter;
   letter-spacing: 3px;
